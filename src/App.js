@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <div className="App">
+        <img src="https://uploads.codesandbox.io/uploads/user/97c18696-1b85-4851-a39c-5b83b339ffd7/sdDG-generic.png" alt="Generic"/>
+    <h1>Joel</h1>
+    <h2>Software Engineer</h2>
+    <div className="_src_component_Section_module_card">
+      <h3>About Me</h3>
+    <hr></hr>
+      <p>
+      I am an advocate of self-improvement and I want to help people improve their lives through knowledge and application 
+      </p>
     </div>
-  );
+    <div className="_src_component_Section_module_card">
+      <h3>Contact me</h3>
+    <hr></hr>
+      <p>Email: joel_email@gmail.com | Linkedin: https//www.linkedin.com</p>
+    </div>
+    </div>
+  )
 }
 
-export default App;
+export default App
