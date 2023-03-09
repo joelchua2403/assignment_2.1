@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import joel from './joel.jpg';
+
 
 const App = () => {
   return (
        <div className="App">
-        <img src={joel} alt="Generic"/>
+        <img src="https://avatars.githubusercontent.com/u/119186374?v=4" alt="Generic"/>
     <h1>Joel</h1>
-    <h2>Software Engineer</h2>
+    <h2>Aspiring Software Engineer</h2>
     <div className="_src_component_Section_module_card">
       <h3>About Me</h3>
     <hr></hr>
@@ -18,7 +18,7 @@ const App = () => {
     <div className="_src_component_Section_module_card">
       <h3>Contact me</h3>
     <hr></hr>
-      <p>Email: joel_email@gmail.com | Linkedin: https//www.linkedin.com</p>
+      <p>Email: joel.chua.mingyi@gmail.com | Linkedin: linkedin.com/in/joel-chua-7b394b245</p>
     </div>
     </div>
   )
